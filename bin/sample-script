@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# sample bash script
+#
+
+echo
+echo "This is a sample bash script."
+
+# Check if cowsay is installed
+if [ ! -x /usr/games/cowsay ]; then
+    echo "cowsay is not installed!"
+    exit 1
+fi
+
+echo "Heute ist: $(date)" | cowsay -f tux

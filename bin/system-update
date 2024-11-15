@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+#
+# system-update
+#
+# update all packages of the system
+
+sudo apt update &&
+  echo &&
+  apt list --upgradable &&
+  echo &&
+  sudo apt upgrade

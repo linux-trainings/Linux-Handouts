@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# repo-clone:
+# Klont das Git-Kurs-Repo auf das lokale System
+#
+
+REPO=Linux-Handouts
+
+if [ ! -d ~/linux-trainings ]; then
+    echo "Das Verzeichnisses ~/linux-trainings existiert nicht!"
+    exit 1
+fi
+
+cd ~/linux-trainings
+echo ">> Klonen des Git-Kurs-Repo ..."
+echo ">> git clone https://github.com/linux-trainings/$REPO.git"
+git clone https://github.com/linux-trainings/$REPO.git

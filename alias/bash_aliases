@@ -1,0 +1,12 @@
+
+#   aliases
+
+alias a=alias
+alias cl=clear
+alias h=history
+alias l='ls -l'
+alias la='ls -al'
+alias cx='chmod u+x'
+alias path='echo $PATH'
+alias ssdn='sudo shutdown now'
+alias srbn='sudo reboot now'

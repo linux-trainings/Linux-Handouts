@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# repo-update:
+# Aktualisiert das lokale Git-Kurs-Repo
+#
+
+REPO=Linux-Handouts
+
+cd ~/linux-trainings/$REPO
+echo ">> Aktualisierung des Git-Kurs-Repo ..."
+echo ">> git pull"
+git pull
