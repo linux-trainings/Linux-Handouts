@@ -19,13 +19,16 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 - Foliensatz Chap04/L08-Shell-Praxis-8 erweitert und verbessert:
   - Abschnitt über Aliase  (Seite 1-4)
 
-## 26.11.2024
+## Di, 26.11.2024
 
 - Foleinsatz Chap04/L09-Shell-Praxis-9 (Thema: Shell-Skripte) erweitert:
   - Abschnitt "Key Takeaways" (Seite 25-26) hinzugefügt
   - Abschnitt "Aufgaben" (Seite 27-29) hinzugefügt
-- Neuen Foliensatz Chap04/L12-Shell-Praxis-12 (Thema: Shell-Variablen) hinzugefügt (work in progress)
+- Neuen Foliensatz Chap04/L12-Shell-Praxis-12 (Thema: Shell-Variablen) hinzugefügt
+- Neuen Foliensatz Chap04/L13-Shell-Praxis-13 (Thema: Wildcards für Dateinamen) hinzugefügt
 - Neuen Foliensatz Chap05/L01-Dateisystem hinzugefügt
 - Neuen Foliensatz Chap05/L02-Dateitypen hinzugefügt
 - Neuen Foliensatz Chap05/L03-Prozesse-und-Signale hinzugefügt
+
+## Mi, 27.11.2024
 
