@@ -10,8 +10,16 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 
 ## 22.11.2024
 
-- In Chap03/L03-Debian-Linux-LXDE-einrichten neuen Abschnitt "Default-PDF-Viewer einstellen" hinzugefügt
-- In Chap04/L05-Shell-Praxis-5 neuen Abschnitt mit Besispiel für die Umlenkung von STDERR hinzugefügt
+- In Chap03/L03-Debian-Linux-LXDE-einrichten neuen Abschnitt "Default-PDF-Viewer einstellen" hinzugefügt (Seite 35-39)
+- In Chap04/L05-Shell-Praxis-5 neuen Abschnitt mit Beispiele für die Umlenkung von STDERR hinzugefügt (Seite 8-11)
 - In Chap04 neuen Foliensatz hinzugefügt: "L05b-Shell-Praxis-5b" ("Rechte setzen mit `chmod`)"
 - In Chap04 neuen Foliensatz hinzugefügt: "L06b-Shell-Praxis-6b" ("Shell-Sonderzeichen und Maskierung")
-- In Chap04/L08-Shell-Praxis-8 Abschnitt über Aliase erweitert und verbessert
+- In Chap04/L08-Shell-Praxis-8 Abschnitt über Aliase erweitert und verbessert (Seite 1-4)
+
+## 26.11.2024
+
+- Neue Folie Chap04/L12-Shell-Praxis-12 (Thema: Shell-Variablen) hinzugefügt (work in progress)
+- Neue Folie Chap05/L01-Dateisystem hinzugefügt
+- Neue Folie Chap05/L02-Dateitypen hinzugefügt
+- Neue Folie Chap05/L03-Prozesse-und-Signale hinzugefügt
+
