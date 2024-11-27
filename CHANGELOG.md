@@ -32,3 +32,5 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 
 ## Mi, 27.11.2024
 
+- Foliensätze in Chap04 neu nummeriert und Dateien neu benannt
+
