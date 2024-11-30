@@ -1,0 +1,65 @@
+#!/bin/bash
+#
+# process-hierarchy
+#
+# Shows the process hierarchy of the current PID given as first argument
+# or the current script shell if no argument is given
+#
+
+# Get the PID of the current script shell
+#
+# If the first argument is given and is a valid PID, use it
+## $1 must not be empty and ('-a')
+## $1 must be a number greater equal than 0 ('-ge 0')
+if test "$1" && test "$1" -ge 0; then
+    # Use the PID given as first argument
+    pid=$1
+else
+    # Use the PID of the current script shell
+    pid=$$
+fi
+
+## check if a process with the given PID exists
+## if not, exit with an error message
+if ! ps -p $pid > /dev/null; then
+    # write an error message to stderr
+    echo "No process with PID $pid found." >&2
+    # exit with an error status != 0
+    exit 1
+fi
+
+# Get the process hierarchy of the given PID
+
+## collect all PIDs of the process hierarchy in variable 'pids'
+pids="$pid"
+
+# get the parent PPID of the PID
+# for which the process hierarchy is to be displayed
+set $(ps h -f -p $pid)
+ppid=$3
+if test $ppid -gt 0; then
+    # prepend the parent PID to the list of PIDs (comma separated)
+    pids="$ppid,$pids"
+fi
+
+# loop until the PPID is 0;
+# this is the case when the init process with PID 1 is reached
+while test $ppid -gt 0; do
+    # the option 'h' suppresses the header line
+    # the 'set' command assigns the fields of the output
+    # to the parameters $1, $2, $3, ...
+    set $(ps h -f -p $ppid)
+    ## the 3rd field of the 'ps' output is the parent PID
+    ppid=$3
+    # check again if the parent PID is greater than 0,
+    # i.e. if the init process is not reached
+    if test $ppid -gt 0; then
+        # prepend the parent PID to the list of PIDs (comma separated)
+        pids="$ppid,$pids"
+    fi
+done
+
+# display the process hierarchy
+echo "===== Process hierarchy of PID $pid: ==================================="
+set -x
+ps -f -p $pids

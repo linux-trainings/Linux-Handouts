@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# script-pid
+#
+# Shows PID and PPID of the current script shell
+#
+
+echo "The current script shell has the following PID and PPID:"
+echo "PID: $$"
+echo "PPID: $PPID"
+echo
+echo "ps -f               # shows the processes in the current TTY"
+ps -f

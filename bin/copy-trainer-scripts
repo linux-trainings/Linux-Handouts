@@ -1,0 +1,50 @@
+#!/bin/bash
+#
+# copy-trainer-scripts
+#
+# This script ...
+# - deletes the directory ~/bin-trainer if it exists
+# - copies the directory ~/linux-trainings/Linux-Handouts/bin with all files it contains to ~/bin-trainer
+# - makes all files in ~/bin-trainer executable
+# - checks if the directory ~/bin-trainer is in the PATH
+# - if not, it adds the line 'export PATH=$PATH:~/bin-trainer' to the end of file ~/.bashrc
+# - finally it lists all files in ~/bin-trainer
+#
+# This script prints all its output to STDERR.
+#
+
+repo_directory=~/linux-trainings/Linux-Handouts
+
+# create the directory ~/bin-trainer if it doesn't exist
+if [ -d ~/bin-trainer ]; then
+    # delete directory ~/bin-trainer and all files it contains
+    echo ">>> deleting directory ~/bin-trainer with all files it contains ..." >&2
+    rm -rf ~/bin-trainer
+fi
+
+# copy $repo_directory/bin with all files it contains to ~/bin-trainer
+echo ">>> recreating directory ~/bin-trainer with all files from $repo_directory/bin ..." >&2
+cp -r $repo_directory/bin ~/bin-trainer
+
+# make all files in ~/bin-trainer executable for all users
+echo ">>> making all files in ~/bin-trainer executable ..." >&2
+chmod a+x ~/bin-trainer/*
+
+# check if the directory ~/bin-trainer is in the PATH
+# 'grep --quiet' is used to suppress output
+if grep --quiet 'PATH=.*bin-trainer' ~/.bashrc; then
+    echo ">>> The directory ~/bin-trainer is already in the PATH. No need to add it." >&2
+else
+    # add the line 'export PATH=$PATH:~/bin-trainer' to the end of file ~/.bashrc
+    echo ">>> extending PATH in ~/.bashrc ..." >&2
+    echo 'export PATH=$PATH:~/bin-trainer' >> ~/.bashrc >&2
+fi
+
+echo -n ">>> PATH setting in ~/.bashrc is:   " >&2
+grep 'PATH=.*bin-trainer' ~/.bashrc >&2
+
+# list all files in ~/bin-trainer
+echo ">>> listing all files in ~/bin-trainer ..." >&2
+echo >&2
+set -x
+ls -l ~/bin-trainer/

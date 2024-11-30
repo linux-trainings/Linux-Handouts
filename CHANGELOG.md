@@ -34,3 +34,21 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 
 - Foliensätze in Chap04 neu nummeriert und Dateien neu benannt
 
+## Fr, 29.11.2024
+
+- Foliensatz Chap04/L13-Wildcards-fuer-Dateinamen umbenannt in Chap04/L14-Wildcards-fuer-Dateinamen
+- Foliensatz Chap04/L12-Shell-Variablen umbenannt in Chap04/L13-Shell-Variablen
+- Neuen Foliensatz Chap04/L12-Prozesse-und-Kindprozesse hinzugefügt
+- Neue Shell-Skripte im Verzeichnis `bin` hinzugefügt:
+  - `copy-trainer-scripts`
+  - `script-pid`
+  - `process-hierarchy`
+
+## Sa, 30.11.2024
+
+- Foliensätze überarbeitet und verbessert:
+  - Chap04/L11-Shell-Skripte
+  - Chap04/L12-Prozesse-und-Kindprozesse
+  - Chap04/L13-Shell-Variablen
+  - Chap04/L14-Wildcards-fuer-Dateinamen
+

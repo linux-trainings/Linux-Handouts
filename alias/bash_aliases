@@ -7,6 +7,7 @@ alias h=history
 alias l='ls -l'
 alias la='ls -al'
 alias cx='chmod u+x'
+alias num='nl -ba'
 alias path='echo $PATH'
 alias ssdn='sudo shutdown now'
 alias srbn='sudo reboot now'
