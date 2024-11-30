@@ -37,7 +37,7 @@ if grep --quiet 'PATH=.*bin-trainer' ~/.bashrc; then
 else
     # add the line 'export PATH=$PATH:~/bin-trainer' to the end of file ~/.bashrc
     echo ">>> extending PATH in ~/.bashrc ..." >&2
-    echo 'export PATH=$PATH:~/bin-trainer' >> ~/.bashrc >&2
+    echo 'export PATH=$PATH:~/bin-trainer' >> ~/.bashrc
 fi
 
 echo -n ">>> PATH setting in ~/.bashrc is:   " >&2
