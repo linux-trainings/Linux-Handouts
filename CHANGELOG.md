@@ -52,3 +52,13 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
   - Chap04/L13-Shell-Variablen
   - Chap04/L14-Wildcards-fuer-Dateinamen
 
+## Mo, 02.12.2024
+
+- Foliensatz Chap04/L12-Prozesse-und-Kindprozesse erweitert:
+  - Abschnitt "Signale" hinzugefügt (Seite 28-38)
+- Foliensatz Chap05/L01-Dateisystem überarbeitet
+- Foliensatz Chap05/L02-Dateitypen überarbeitet
+- Foliensatz Chap05/L03-Prozesse-und-Signale überarbeitet
+- Foliensatz Chap05/L04-proc-Dateisystem erstellt
+- Foliensatz Chap05/L05-Hardlinks-und-Softlinks erstellt
+
