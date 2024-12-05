@@ -62,3 +62,10 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 - Foliensatz Chap05/L04-proc-Dateisystem erstellt
 - Foliensatz Chap05/L05-Hardlinks-und-Softlinks erstellt
 
+## Do, 05.12.2024
+
+- Foliensatz Chap09/L01-Debian-Server-installieren-und-einrichten erstellt
+- Foliensatz Chap09/L02-ssh-Zugriffe-einrichten erstellt
+- Foliensatz Chap09/L03-Windows-OpenSSH-Client erstellt
+- Foliensatz Chap09/L04-Windows-Putty-SSH-Client erstellt
+
