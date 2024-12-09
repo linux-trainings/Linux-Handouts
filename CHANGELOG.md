@@ -68,4 +68,9 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 - Foliensatz Chap09/L02-ssh-Zugriffe-einrichten erstellt
 - Foliensatz Chap09/L03-Windows-OpenSSH-Client erstellt
 - Foliensatz Chap09/L04-Windows-Putty-SSH-Client erstellt
+- Foliensatz Chap04/L05-Prozesse-und-Hintergrundprozesse erweitert:
+  - Abschnitt "Ein- und Ausgabe von Hintergrund-Prozessen" hinzugefügt (Seite 23-24)
 
+## Mo, 09.12.2024
+
+- Foliensatz Chap08/L01-Benutzerverwaltung erstellt
