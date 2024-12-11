@@ -73,4 +73,9 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 
 ## Mo, 09.12.2024
 
-- Foliensatz Chap08/L01-Benutzerverwaltung erstellt
+- Foliensatz Chap08/L01-Benutzer-Verwaltung erstellt
+
+## Mi, 11.12.2024
+
+- Foliensatz Chap08/L02-Festplatten-Verwaltung erstellt
+- Foliensatz Chap08/L02a-Virtuelle-Festplatte-in-virtuelle-Maschine-einbauen erstellt
