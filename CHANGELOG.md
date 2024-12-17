@@ -79,3 +79,12 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 
 - Foliensatz Chap08/L02-Festplatten-Verwaltung erstellt
 - Foliensatz Chap08/L02a-Virtuelle-Festplatte-in-virtuelle-Maschine-einbauen erstellt
+
+## Sa, 14.12.2024
+
+- Foliensatz Chap08/L03-System-und-Hardware-Informationen erstellt
+
+## Mo, 16.12.2024
+
+- Foliensatz Chap08/L04-Paket-Verwaltung-mit-apt-und-dpkg erstellt
+- Foliensatz Chap08/L05-Paket-Verwaltung-mit-flatpak erstellt
