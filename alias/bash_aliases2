@@ -1,0 +1,7 @@
+
+#   aliases
+
+alias df-ph='df -T -x tmpfs -x devtmpfs'
+alias deb='ssh hermann@debian'
+alias srv='ssh hermann@deb-srv'
+alias deb='lh hermann@localhost'
