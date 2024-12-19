@@ -88,3 +88,9 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 
 - Foliensatz Chap08/L04-Paket-Verwaltung-mit-apt-und-dpkg erstellt
 - Foliensatz Chap08/L05-Paket-Verwaltung-mit-flatpak erstellt
+
+## Do, 19.12.2024
+
+- Foliensatz Chap09/L02-ssh-Zugriffe-einrichten überarbeitet
+- Foliensatz Chap09/L03-Windows-OpenSSH-Client überarbeitet
+- Foliensatz Chap09/L04-Windows-Putty-SSH-Client überarbeitet
