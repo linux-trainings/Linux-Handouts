@@ -94,3 +94,14 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 - Foliensatz Chap09/L02-ssh-Zugriffe-einrichten überarbeitet
 - Foliensatz Chap09/L03-Windows-OpenSSH-Client überarbeitet
 - Foliensatz Chap09/L04-Windows-Putty-SSH-Client überarbeitet
+
+## Di, 31.12.2024
+
+- Foliensatz Chap09/L02-... umbenannt in Chap09/L02a-ssh-Zugriffe-einrichten
+- Foliensatz Chap09/L03-... umbenannt in Chap09/L02b-Windows-OpenSSH-Client
+- Foliensatz Chap09/L04-... umbenannt in Chap09/L02c-Windows-Putty-SSH-Client
+- Foliensatz Chap09/L03a-About-Samba erstellt
+- Foliensatz Chap09/L03b-Samba-Freigaben erstellt
+- Foliensatz Chap09/L03c-Samba-Freigabe-Zugriff-Linux erstellt
+- Foliensatz Chap09/L03d-Samba-Freigabe-Zugriff-Windows erstellt
+- Foliensatz Chap09/L03e-Windows-Freigaben-einbinden-Linux erstellt
