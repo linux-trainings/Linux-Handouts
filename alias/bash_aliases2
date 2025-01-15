@@ -3,4 +3,4 @@ alias deb='ssh hermann@debian.mshome.net'
 alias srv='ssh hermann@deb-srv.mshome.net'
 alias lh='ssh hermann@localhost'
 # 'df' only for physical filesystems
-alias dfp='df -T -x tmpfs -x devtmpfs'
+alias dfp='df -T -h -x tmpfs -x devtmpfs'

@@ -8,6 +8,6 @@ sudo apt update &&
   echo &&
   apt list --upgradable &&
   echo &&
-  sudo apt upgrade &&
+  sudo apt upgrade -y &&
   echo &&
-  sudo apt autoremove
+  sudo apt autoremove -y
