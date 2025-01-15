@@ -105,3 +105,8 @@ Das Changelog beschreibt nur die Daten der Änderungen. Für die Änderungsstän
 - Foliensatz Chap09/L03c-Samba-Freigabe-Zugriff-Linux erstellt
 - Foliensatz Chap09/L03d-Samba-Freigabe-Zugriff-Windows erstellt
 - Foliensatz Chap09/L03e-Windows-Freigaben-einbinden-Linux erstellt
+
+## Mi, 15.01.2025
+
+- Foliensatz Chap05/L01-Dateisystem überarbeitet
+- Foliensatz Chap08/L02-Festplatten-Verwaltung überarbeitet
