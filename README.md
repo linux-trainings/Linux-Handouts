@@ -18,7 +18,13 @@ Dieses Repository enthält vom Dozenten bereitgestellte Linux-Handouts
 
 ## Inhalt des Repositories als ZIP-Datei herunterladen
 
+- Aktuelle Version:
+
 [https://github.com/linux-trainings/Linux-Handouts/archive/refs/heads/main.zip](https://github.com/linux-trainings/Linux-Handouts/archive/refs/heads/main.zip)
+
+- Zip-Datei vom 19.01.2025:
+
+[https://github.com/linux-trainings/Linux-Handouts/raw/refs/heads/main/archive/Linux-Handouts-2025-01-19.zip](https://github.com/linux-trainings/Linux-Handouts/raw/refs/heads/main/archive/Linux-Handouts-2025-01-19.zip)
 
 ## Repository auf den lokalen Rechner klonen
 
