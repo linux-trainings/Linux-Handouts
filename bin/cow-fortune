@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# cow-fortune - display a fortune with a random 'cow'
+#
+
+test "$1" = "-d" && DEBUG=1
+
+animals=$(cowsay -l | grep -vi "cow files")
+test "$DEBUG" = "1" && echo animals: $animals
+test "$DEBUG" = "1" && echo
+
+limit=$(echo $animals | wc -w)
+test "$DEBUG" = "1" && echo limit: $limit
+
+index=$(echo $((1 + $RANDOM % $limit)))
+test "$DEBUG" = "1" && echo index: $index
+
+choice=$(for animal in $(cowsay -l | grep -iv "cow files"); do echo $animal; done | nl -ba | grep -w $index | cut -f2)
+test "$DEBUG" = "1" && echo choice: $choice
+test "$DEBUG" = "1" && echo
+
+set -x
+fortune | cowsay -f $choice
