@@ -6,4 +6,7 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 
 ## 2025-02-07
 
-- Foliensatz: `Chap03-Shell-Praxis/L02-echo-pwd-cd-ls--Erste-Kommandos.md`: umbenannt und inhaltlich überarbeitet
+- Foliensatz: `Chap03-Shell-Praxis/L02-echo-pwd-cd-ls--Erste-Kommandos.md`: Inhalt zu `ls` entfernt
+- Neuer Foliensatz: `Chap03-Shell-Praxis/L03-ls--Verzeichniseintraege-anzeigen.md`: Inhalt zu `ls` hinzugefügt und erweitert
+- Nachfolgende Foliensätze neu nummeriert
+
