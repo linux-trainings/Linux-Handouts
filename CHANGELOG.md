@@ -10,3 +10,10 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 - Neuer Foliensatz: `Chap03-Shell-Praxis/L03-ls--Verzeichniseintraege-anzeigen.md`: Inhalt zu `ls` hinzugefügt und erweitert
 - Nachfolgende Foliensätze neu nummeriert
 
+## 2025-02-09
+
+- Kapitel: `Chap03-Shell-Praxis` in `Chap04-Shell-Praxis` umbenannt
+- Neues Kapitel: `Chap03-Debian-Desktop-installieren-einrichten`
+- Foliensätze zur LXDE-Desktop-Konfiguration verschoben aus `Chap02-Linux-installieren-einrichten` in `Chap03-Debian-Desktop-installieren-einrichten`
+- Kapitel `Chap02-Linux-installieren-einrichten` umbenannt in `Chap02-Debian-Linux-installieren-einrichten`
+
