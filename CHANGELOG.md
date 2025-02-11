@@ -17,3 +17,8 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 - Foliensätze zur LXDE-Desktop-Konfiguration verschoben aus `Chap02-Linux-installieren-einrichten` in `Chap03-Debian-Desktop-installieren-einrichten`
 - Kapitel `Chap02-Linux-installieren-einrichten` umbenannt in `Chap02-Debian-Linux-installieren-einrichten`
 
+## 2025-02-11
+
+- Foliensatz: `Chap04-*/L05-Shell-Variablen-1`: Variablen-Substitution besser mit erläuternden Beispielen demonstriert
+
+
