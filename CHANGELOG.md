@@ -21,4 +21,7 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 
 - Foliensatz: `Chap04-*/L05-Shell-Variablen-1`: Variablen-Substitution besser mit erläuternden Beispielen demonstriert
 
+## 2025-02-18
+
+- Foliensatz: `Chap03-*/L03-LXDE-Autologin`: hinzugefügt
 
