@@ -25,3 +25,8 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 
 - Foliensatz: `Chap03-*/L03-LXDE-Autologin`: hinzugefügt
 
+## 2025-02-19
+
+- Foliensätze: `Chap02: L04 - L07` kleine Korrekturen und Erweiterungen
+
+
