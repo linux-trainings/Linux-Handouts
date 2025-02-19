@@ -1,5 +1,6 @@
 set user=hermann
 set host=%1
+if "%host%"=="" set host=debian
 set domain=mshome.net
 
 echo Aktualisierung des Git-Kurs-Repo von %user% auf %host% ...
