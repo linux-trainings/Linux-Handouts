@@ -7,6 +7,7 @@ set domain=mshome.net
 echo.
 
 echo Aktualisierung des Git-Kurs-Repo von %user% auf %host%.%domain% ...
+echo.
 ssh %user%@%host%.%domain% cd linux-trainings/Linux-Handouts; git pull
 
 echo.

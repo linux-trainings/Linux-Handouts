@@ -6,6 +6,7 @@ cd linux-trainings\Linux-Handouts
 echo.
 
 echo Aktualisierung des Git-Kurs-Repo: git pull
+echo.
 git pull
 
 echo.

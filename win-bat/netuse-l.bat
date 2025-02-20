@@ -1,6 +1,6 @@
 @echo off
 
-set server=debian
+set server=debian.mshome.net
 set username=hermann
 set sharename=%username%
 set password=secret
