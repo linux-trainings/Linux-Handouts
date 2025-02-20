@@ -37,6 +37,8 @@ cd linux-trainings/Linux-Handouts
 git pull
 ```
 
+<u>NOTE</u>: Betrachten Sie **auch das lokale `git`-Repository** auf Ihrem Rechner als **read-only**. Änderungen können nicht zurückgeschrieben werden. Nur der Dozent kann Änderungen im Repository vornehmen. Sie holen sich mit `git pull` die neueste Version auf Ihren Rechner.
+
 ## Installation von `git`
 
 Um das Repository - wie oben beschrieben - auf den lokalen Rechner zu klonen oder zu aktualisieren, muss `git` installiert sein.
