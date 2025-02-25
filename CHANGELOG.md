@@ -34,4 +34,8 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 - Foliensätze: `Chap02/L06, L07`: kleine Korrekturen und Erweiterungen
 - Foliensätze: `Chap07/L01`: kleine Korrekturen und Erweiterungen
 
+## 2025-02-25
+
+- Foliensatz: `Chap04/L18-shutdown-reboot` verschoben nach `Chap04/L08-shutdown-reboot`
+- nachfolgende Foliensätze neu nummeriert
 
