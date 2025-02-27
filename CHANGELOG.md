@@ -39,3 +39,6 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 - Foliensatz: `Chap04/L18-shutdown-reboot` verschoben nach `Chap04/L08-shutdown-reboot`
 - nachfolgende Foliensätze neu nummeriert
 
+## 2025-02-27
+
+- Foliensatz: `Chap04/L22-cp-rm-mv--Kopieren-Loeschen-Verschieben-von-Dateien-und-Dateibaeumen` geändert: Kommando `mv` hinzugefügt
