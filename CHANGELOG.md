@@ -42,3 +42,9 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 ## 2025-02-27
 
 - Foliensatz: `Chap04/L22-cp-rm-mv--Kopieren-Loeschen-Verschieben-von-Dateien-und-Dateibaeumen` geändert: Kommando `mv` hinzugefügt
+
+## 2025-03-01
+
+- Kapitel-Verzeichnisse umbenannt:
+  - `Chap06-Administration` in `Chap06-System-Administration`
+  - `Chap07-Netzwerk` in `Chap07-Netzwerk-Administration`
