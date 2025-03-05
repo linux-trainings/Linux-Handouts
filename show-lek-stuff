@@ -1,0 +1,34 @@
+#!/bin/bash
+#
+# Zeigt die Lektionen an, die für die LEK-Prüfung relevant sind
+#
+# Aufruf:
+#   chmod u+x show-lek-stuff
+#   ./show-lek-stuff
+#
+
+basedir=$(dirname $0)/slides
+cd $basedir
+
+chap2stuff="Chap02-*/L??-*.pdf"
+chap4stuff1="Chap04-*/L[0-2][0-9]-*.pdf"
+chap4stuff2="Chap04-*/L3[0-4]-*.pdf"
+chap5stuff="Chap05-*/L01-*.pdf"
+chap6stuff="Chap06-*/L01-*.pdf"
+chap7stuff1="Chap07-*/L01-*.pdf"
+chap7stuff2="Chap07-*/L02[ab]-*.pdf"
+
+echo "Lektionen für die LEK-Prüfung"
+echo "=============================="
+echo "---- Kapitel 2 ----------------"
+ls -1 $chap2stuff
+echo "---- Kapitel 4 ----------------"
+ls -1 $chap4stuff1
+ls -1 $chap4stuff2
+echo "---- Kapitel 5 ----------------"
+ls -1 $chap5stuff
+echo "---- Kapitel 6 ----------------"
+ls -1 $chap6stuff
+echo "---- Kapitel 7 ----------------"
+ls -1 $chap7stuff1
+ls -1 $chap7stuff2
