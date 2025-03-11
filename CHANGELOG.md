@@ -48,3 +48,7 @@ Dokumentiert werden Änderungen an Foliensätzen, die bereits behandelt wurden, 
 - Kapitel-Verzeichnisse umbenannt:
   - `Chap06-Administration` in `Chap06-System-Administration`
   - `Chap07-Netzwerk` in `Chap07-Netzwerk-Administration`
+
+## 2025-03-11
+
+- Foliensatz: `Chap05/L01-Dateisysteme` geteilt in zwei Foliensätze: `Chap05/L01a-Dateisystem-Hauptverzeichnisse` und `Chap05/L01b-Dateisystem-Datei-Verzeichnis-Struktur`
