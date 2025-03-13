@@ -79,7 +79,11 @@ brew install git
 
 Der Package Manager *Homebrew* muss installiert sein.
 
-### Weitere Informationen
+### Weitere Informationen zu `git`
 
 - [https://git-scm.com/book/de/v2/Erste-Schritte-Git-installieren](https://git-scm.com/book/de/v2/Erste-Schritte-Git-installieren)
 - [https://github.com/git-guides/install-git](https://github.com/git-guides/install-git)
+
+### Empfehlungen für `git`-Neulinge zum Umgang mit diesem Repository
+
+Sie sollten die Dateien im Repository **nicht** verändern. Andernfalls gibt es Konflikte beim nächsten `git pull`. Wenn Sie die Dateien verändern wollen, kopieren Sie die Dateien in ein anderes Verzeichnis und arbeiten Sie dort mit den Kopien.
