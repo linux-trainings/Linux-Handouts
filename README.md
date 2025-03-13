@@ -1,12 +1,14 @@
-# Linux-Handouts für IBB-Kurse
+# Handouts für Linux-Kurse
 
-Dieses Repository enthält vom Dozenten bereitgestellte Linux-Handouts
+Dieses Repository enthält vom Dozenten bereitgestellte Handouts für Linux-Kurse.
 
 ## Verzeichnisstruktur
 
 - *alias*: Alias-Definitionen
 
 - *bin*: Shell-Skripte
+
+- *conf*: Konfigurationsdateien
 
 - *slides*: Präsentationsfolien im PDF-Format
 
