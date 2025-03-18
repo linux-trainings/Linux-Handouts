@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# prints an extension block to be appended to /etc/samba/smb.conf
+# This block is customized to the user currently logged in
+#
+
+cat << EOF
+
+[linux-trainings]
+   comment = Linux-Trainings-Resources
+   path = /home/$USER/linux-trainings
+   browseable = yes
+   read only = no
+   create mask = 0640
+   directory mask = 0750
+   ; change user name to your current SMB user
+   valid users = $USER
+EOF
