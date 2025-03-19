@@ -6,7 +6,7 @@ set password=ibb
 echo.
 
 echo on
-net use L: \\%server%\%share% /user:%username% %password%
+net use L: \\%server%\%share% /persistent:yes /user:%username% %password%
 @echo off
 
 echo.
