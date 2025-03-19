@@ -13,6 +13,5 @@ cat << EOF
    read only = no
    create mask = 0640
    directory mask = 0750
-   ; change user name to your current SMB user
    valid users = $USER
 EOF

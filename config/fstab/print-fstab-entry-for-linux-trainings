@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# prints an extension line to be appended to /etc/fstab
+# This block is customized to the user currently logged in
+#
+
+share=linux-trainings
+mountdir=$share
+user=$(whoami)
+uid=$(id -u)
+gid=$(id -g)
+
+cat << EOF
+
+//debsrv.mshome.net/$share /home/$user/$mountdir cifs uid=$uid,gid=$gid,credentials=/home/$USER/.cifs/debsrv-credentials 0 0
+EOF
