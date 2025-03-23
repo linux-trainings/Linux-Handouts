@@ -8,7 +8,7 @@ Dieses Repository enthält vom Dozenten bereitgestellte Handouts für Linux-Kurs
 
 - *bin*: Shell-Skripte
 
-- *conf*: Konfigurationsdateien
+- *config*: Konfigurationsdateien, Konfigurationsskripte
 
 - *slides*: Präsentationsfolien im PDF-Format
 
@@ -58,7 +58,7 @@ Der angemeldete Benutzer muss Mitglied der Gruppe *Administratoren* sein.
 (Dies gilt auch für Debian-basierte Distributionen wie Linux Mint, elementary OS, Zorin OS, Pop!_OS, Kali Linux, MX Linux, etc.)
 
 ```bash
-sudo apt update && sudo apt install git-all
+sudo apt update && sudo apt install git
 ```
 
 Der angemeldete Benutzer muss Mitglied der Gruppe *sudo* sein.
@@ -66,7 +66,7 @@ Der angemeldete Benutzer muss Mitglied der Gruppe *sudo* sein.
 ### `git` mit `dnf` auf Fedora installieren
 
 ```bash
-sudo dnf install git-all
+sudo dnf install git
 ```
 
 Der angemeldete Benutzer muss Mitglied der Gruppe *sudo* sein.
